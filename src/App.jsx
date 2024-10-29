@@ -1,10 +1,10 @@
 import React from "react";
-import UseEffect from "./Components/UseEffect/UseEffect";
+import UseRefDom from "./Components/UseRef/UseRefDom";
 
 function App() {
   return (
     <>
-      <UseEffect />
+      <UseRefDom />
     </>
   );
 }
