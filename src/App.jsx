@@ -1,10 +1,10 @@
 import React from "react";
-import UseRefDom from "./Components/UseRef/UseRefDom";
+import UseMemo from "./Components/UseMemo/UseMemo";
 
 function App() {
   return (
     <>
-      <UseRefDom />
+      <UseMemo />
     </>
   );
 }
