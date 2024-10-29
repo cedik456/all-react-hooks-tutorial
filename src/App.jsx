@@ -1,10 +1,10 @@
 import React from "react";
-import UseStatePrev from "./Components/UseState/UseStatePrev";
+import UseEffect from "./Components/UseEffect/UseEffect";
 
 function App() {
   return (
     <>
-      <UseStatePrev />
+      <UseEffect />
     </>
   );
 }
