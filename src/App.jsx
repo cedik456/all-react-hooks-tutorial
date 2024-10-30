@@ -1,10 +1,10 @@
 import React from "react";
-import UseMemo from "./Components/UseMemo/UseMemo";
+import UseCallbackApp from "./Components/UseCallback/UseCallbackApp";
 
 function App() {
   return (
     <>
-      <UseMemo />
+      <UseCallbackApp />
     </>
   );
 }
