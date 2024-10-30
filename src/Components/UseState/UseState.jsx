@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./UseState.css";
 
 function UseState() {
   let [color, setColor] = useState("Red");

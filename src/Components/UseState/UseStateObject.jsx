@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./UseState.css";
 
 function UseStateObject() {
   const [car, setCar] = useState({

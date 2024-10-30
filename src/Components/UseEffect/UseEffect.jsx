@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./UseEffect.css";
 
 function UseEffect() {
   const [count, setCount] = useState(0);

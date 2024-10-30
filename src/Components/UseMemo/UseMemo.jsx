@@ -1,5 +1,4 @@
 import React, { useMemo, useState } from "react";
-import "./UseMemo.css";
 
 function UseMemo() {
   const [number, setNumber] = useState(0);

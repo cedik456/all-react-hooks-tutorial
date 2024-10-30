@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from "react";
-import "./UseCallback.css";
 import UseCallbackHeader from "./UseCallbackHeader";
 
 function UseCallbackApp() {

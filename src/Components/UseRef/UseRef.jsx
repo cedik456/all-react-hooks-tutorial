@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./UseRef.css";
 
 function UseRef() {
   const [value, setValue] = useState(0);

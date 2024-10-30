@@ -1,10 +1,16 @@
 import React from "react";
-import UseCallbackApp from "./Components/UseCallback/UseCallbackApp";
+import UseContextProfile from "./Components/UseContext/UseContextProfile";
+import UseContextFooter from "./Components/UseContext/UseContextFooter";
 
 function App() {
   return (
     <>
-      <UseCallbackApp />
+      <div className="container">
+        <div className="wrapper">
+          <UseContextProfile />
+          <UseContextFooter />
+        </div>
+      </div>
     </>
   );
 }

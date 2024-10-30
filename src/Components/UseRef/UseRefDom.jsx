@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import "./UseRef.css";
 
 function UseRefDom() {
   const inputRef = useRef(null);
