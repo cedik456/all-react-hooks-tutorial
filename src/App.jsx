@@ -1,16 +1,11 @@
 import React from "react";
-import UseContextProfile from "./Components/UseContext/UseContextProfile";
-import UseContextFooter from "./Components/UseContext/UseContextFooter";
+import UseEffect from "./Components/UseEffect/UseEffect";
+import UseReducer from "./Components/UseReducer/UseReducer";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <div className="wrapper">
-          <UseContextProfile />
-          <UseContextFooter />
-        </div>
-      </div>
+      <UseReducer />
     </>
   );
 }

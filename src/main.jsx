@@ -4,8 +4,4 @@ import "./index.css";
 import App from "./App.jsx";
 import ContextProvider from "./Components/UseContext/AppContext.jsx";
 
-createRoot(document.getElementById("root")).render(
-  <ContextProvider>
-    <App />
-  </ContextProvider>
-);
+createRoot(document.getElementById("root")).render(<App />);
