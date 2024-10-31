@@ -1,11 +1,10 @@
 import React from "react";
-import UseEffect from "./Components/UseEffect/UseEffect";
-import UseReducer from "./Components/UseReducer/UseReducer";
+import CustomHookApp from "./Components/CustomHook/CustomHookApp";
 
 function App() {
   return (
     <>
-      <UseReducer />
+      <CustomHookApp />
     </>
   );
 }
